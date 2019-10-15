@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cargar CSV</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+  <section class="split1">
+    <select class="selecciona">
+
+      <option value="participaciones">Participaciones</option>
+      <option value="columnaA">Columna A </option>
+      <option value="columnaB">Columna B</option>
+    </select>
+
+    <button class="btn__ordenaA"> Ordenar Ascendente</button>
+    <button class="btn__ordenaD"> Ordenar Descendente</button>
+
+    <h1>Similitud Coseno</h1>
+
+    <section class="split2">
+
+      <select class="coseno1">
+          <option value="">-</option>
+      </select>
+
+      <select class="coseno2">
+          <option value="">-</option>
+      </select>
+      <button class="ejecutar">Ejecutar</button>
+
+      <p class="similitud">Similitud: </p>
+
+
+    </section>
+
+  </section>
+
+  <script src="/librerias/jquery-3.4.1.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
