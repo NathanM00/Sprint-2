@@ -122,7 +122,7 @@ function successFunction(data) {
  
   }
 
-function daleAEso (){
+function ejecutarSimilitud (){
   if(similitud && (coseno1.value !== coseno2.value) ){
     var resultado = parseInt(similitud*100);
     similHTML.innerHTML = "Similitud: "+resultado+"%";
@@ -132,7 +132,7 @@ function daleAEso (){
 
 }
 
-  ejecutar.addEventListener('click', daleAEso);
+  ejecutar.addEventListener('click', ejecutarSimilitud);
 
   coseno1.addEventListener("change", funcionCoseno);
   coseno2.addEventListener("change", funcionCoseno);

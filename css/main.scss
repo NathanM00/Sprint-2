@@ -6,9 +6,15 @@ table {
   }
    
   tr:nth-child(even) {
-    background: #d4d4d4;
+    background: #5dd5fd;
+    color:white;
   }
    
+
+  .similitud{
+    font-size: 1.5em;
+    color: rgb(15, 157, 204);
+  }
   th, td {
     padding: 10px 30px;
   }
@@ -18,8 +24,24 @@ table {
   }
   body{
       display: flex;
+      font-family: 'Roboto', sans-serif;
   }
-  .split1{
+
+  h1{
+    color: black;
+  }
+  .split{
     display: flex;
     flex-direction: column;
+  }
+
+  .split1{
+    padding: 1em;
+   border: rgb(93, 213, 253) 2px solid;
+   border-radius: 10px;
+  }
+  .split2{
+    padding: 1em;
+   border: #5dd5fd 2px solid;
+   border-radius: 10px;
   }

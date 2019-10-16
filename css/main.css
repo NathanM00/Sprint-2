@@ -6,7 +6,13 @@ table {
 }
 
 tr:nth-child(even) {
-  background: #d4d4d4;
+  background: #5dd5fd;
+  color: white;
+}
+
+.similitud {
+  font-size: 1.5em;
+  color: #0f9dcc;
 }
 
 th, td {
@@ -21,9 +27,14 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: 'Roboto', sans-serif;
 }
 
-.split1 {
+h1 {
+  color: black;
+}
+
+.split {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,5 +42,17 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.split1 {
+  padding: 1em;
+  border: #5dd5fd 2px solid;
+  border-radius: 10px;
+}
+
+.split2 {
+  padding: 1em;
+  border: #5dd5fd 2px solid;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=main.css.map */
